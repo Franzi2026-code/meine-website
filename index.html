@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine erste Website</title>
+    <style>
+        /* Einfaches Design (CSS) */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 450px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #0969da;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #57606a;
+        }
+
+        button {
+            background-color: #2da44e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #2c974b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Willkommen auf meiner Website! 🚀</h1>
+        <p>Diese Webseite wird kostenlos über GitHub Pages gehostet.</p>
+        
+        <button onclick="sagHallo()">Klick mich!</button>
+    </div>
+
+    <script>
+        // Kleines interaktives Skript (JavaScript)
+        function sagHallo() {
+            alert("Hallo! Schön, dass du meine Website besuchst!");
+        }
+    </script>
+
+</body>
+</html>
